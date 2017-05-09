@@ -1,0 +1,19 @@
+{
+  "name": "webhook",
+  "version": "1.0.0",
+  "description": "For BLUEMODE with love from incognito",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hook": "node --harmony-async-await  index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "console-stamp": "^0.2.5",
+    "express": "^4.15.2",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {}
+}
